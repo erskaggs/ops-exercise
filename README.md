@@ -12,7 +12,7 @@
   * Base OS should be ubuntu 14.04
   * Use Berkshelf for dependancy management, please no vendor drops (but version locks are good!)
   * Should leverage community cookbooks when it make sense.
-  * Recipe should be testable using Vagrant.
+  * Shoud be testable using Vagrant.
  
 ###Nice to have
   * Security hardening and user management.
