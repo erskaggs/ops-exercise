@@ -14,7 +14,7 @@
   * Should leverage community cookbooks when it make sense.
   * Recipe should be testable using Vagrant.
  
-  ###Nice to have
+###Nice to have
   * Security hardening and user management.
   * Should converge both in chef-zero and chef-client modes.
   * Take care with secrets!
