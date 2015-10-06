@@ -6,7 +6,7 @@
   * Don't make it too complex
 
 ##Spec
-  ###Need to have
+###Need to have
   * Chef cookbook[s], structure as you see fit.
   * Implement a Linux, MySQL, HHVM, Nginx single host running some sort of blog software (take your pick)
   * Base OS should be ubuntu 14.04
