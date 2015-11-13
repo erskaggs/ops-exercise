@@ -8,3 +8,8 @@
 #
 
 include_recipe 'nginx'
+
+file "#{node.nginx.dir}/conf.d/default.conf" do
+  action :delete
+  notifies :reload, 'service[nginx]'
+end

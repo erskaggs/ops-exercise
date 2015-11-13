@@ -1,10 +1,10 @@
 action :create do
 
-  mysql_service 'default' do
+  mysql_service new_resource.name do
     bind_address  new_resource.bind_addr
     port  new_resource.port
     version new_resource.version
-    inital_root_passsword 'p@$$W0rd'
+    initial_root_password new_resource.root_pwd
     action [:create, :start]
   end
 end
