@@ -1,0 +1,6 @@
+source "https://supermarket.chef.io"
+
+cookbook 'db-mysql', '~> 0.1.0', path: '../db-mysql'
+cookbook 'web-nginx', '~> 0.1.0, path: '../web-nginx'
+
+metadata

@@ -1,0 +1,11 @@
+name             'plog'
+maintainer       'Eric Skaggs'
+maintainer_email 'ericskaggs@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures plog'
+long_description 'Installs/Configures plog'
+version          '0.1.0'
+
+depends 'db-mysql', '~> 0.1.0'
+depends 'web-nginx', '~> 0.1.0'
+depends 'wordpress', '~> 3.0.0'

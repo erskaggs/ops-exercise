@@ -1,0 +1,7 @@
+name             'db-mysql'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures db-mysql'
+long_description 'Installs/Configures db-mysql'
+version          '0.1.0'
