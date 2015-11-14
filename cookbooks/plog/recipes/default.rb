@@ -9,4 +9,5 @@
 
 include_recipe 'plog::mysql'
 include_recipe 'plog::nginx'
+include_recipe 'plog::hhvm'
 #include_recipe 'plog::wordpress'

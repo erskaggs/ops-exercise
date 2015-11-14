@@ -1,1 +1,1 @@
-include_recipe 'hhvm'
+include_recipe 'web-hhvm'
