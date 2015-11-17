@@ -7,3 +7,5 @@ default['mysql_host'] = 'localhost'
 default['mysql_port'] = 3306
 
 default['wordpress']['version'] = '4.3.1'
+
+default['ghost-blog']['install_dir'] = '/var/www/ghost'

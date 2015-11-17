@@ -5,3 +5,6 @@ license          'All rights reserved'
 description      'Installs/Configures db-mysql'
 long_description 'Installs/Configures db-mysql'
 version          '0.1.0'
+
+depends 'mysql', '~> 6.1.2'
+#depends 'mysql-hardening', '~> 1.1.0'

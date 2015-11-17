@@ -3,5 +3,8 @@ source "https://supermarket.chef.io"
 cookbook 'db-mysql', '~> 0.1.0', path: '../db-mysql'
 cookbook 'web-nginx', '~> 0.1.0', path: '../web-nginx'
 cookbook 'web-hhvm', '~> 0.1.0', path: '../web-hhvm'
+cookbook 'os-harden', '~> 0.1.0', path: '../os-harden'
+
+cookbook 'ghostblog', '~> 1.0.1', github: 'erskaggs/chef-ghostblog'
 
 metadata

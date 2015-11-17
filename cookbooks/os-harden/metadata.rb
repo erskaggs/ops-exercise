@@ -1,0 +1,10 @@
+name             'os-harden'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures os-harden'
+long_description 'Installs/Configures os-harden'
+version          '0.1.0'
+
+depends 'ssh-hardening', '~> 1.1.0'
+depends 'os-hardening', '~> 1.3.1'
