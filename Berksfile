@@ -6,6 +6,7 @@ cookbook 'db-mysql', '~> 0.1.0', path: 'cookbooks/db-mysql'
 cookbook 'web-nginx', '~> 0.1.0', path: 'cookbooks/web-nginx'
 cookbook 'web-hhvm', '~> 0.1.0', path: 'cookbooks/web-hhvm'
 cookbook 'os-harden', '~> 0.1.0', path: 'cookbooks/os-harden'
+cookbook 'user-mgt', '~> 0.1.0', path: 'cookbooks/user-mgt'
 
 cookbook 'nginx', '~> 2.7.6'
 cookbook 'hhvm', '~> 0.6.0'

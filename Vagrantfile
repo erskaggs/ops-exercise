@@ -18,5 +18,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe 'plog::default'
+    chef.data_bags_path = './cookbooks/plog/test/integration/default/data_bags'
+    chef.encrypted_data_bag_secret_key_path = './cookbooks/plog/test/integration/default/encrypted_data_bag_secret'
   end
 end

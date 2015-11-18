@@ -1,0 +1,7 @@
+name             'user-mgt'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures user-mgt'
+long_description 'Installs/Configures user-mgt'
+version          '0.1.0'
